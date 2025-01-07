@@ -1,0 +1,102 @@
+/* styles.css*/
+
+/*main css*/
+
+/* styles.css*/
+@font-face {
+   font-family: 'PublicoHeadline'; /* Name your font family */
+   src: url('../Fonts/PublicoHeadline-Black-05.otf'); /* Locate the .ttf file within your directory*/
+ }
+
+ @font-face {
+   font-family: 'PublicoText'; /* Name your font family */
+   src: url('../Fonts/PublicoText-Roman.otf'); /* Locate the .ttf file within your directory*/
+ } 
+
+
+
+* {
+   box-sizing: border-box;
+}
+
+img {
+   width: 100%;
+   display: block;
+}
+
+body {
+
+}
+
+
+.timeline-container {
+   max-width: 980px;
+   font-family: "proxima-nova", sans-serif;
+}
+
+.title {
+   font-family: 'PublicoHeadline';
+   font-size: 2rem;
+   font-weight: 900;
+   margin-bottom: 20px;
+}
+
+
+.timeline-desc {
+   border-radius: 0px !important;
+   line-height: 25px;
+   background-color: #d4d4d4 !important;
+}
+
+.time-title {
+   font-family: 'PublicoHeadline';
+   font-size: 20px;
+   padding-bottom: 20px;
+   text-decoration: underline;
+   text-decoration-color: #820415;
+}
+
+.subhed {
+   font-family: "proxima-nova", sans-serif;
+   font-size: 15px;
+}
+
+.time-desc {
+   font-family: "proxima-nova", sans-serif;
+   font-size: 15px;
+}
+
+.filling-line {
+   background-color: #820415 !important;
+}
+
+.horizontal-timeline .events a.selected::after, .horizontal-timeline .events a.older-event::after {
+   background-color: #820415 !important;
+}
+
+.timeline-navigation a:hover{
+   color:#820415;
+   border-color:#820415;
+}
+
+
+
+
+
+/*media query for responsive design */
+
+@media only screen and (max-width: 640px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
