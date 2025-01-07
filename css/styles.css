@@ -41,6 +41,8 @@ body {
    margin-bottom: 20px;
 }
 
+.timeline-desc a {color: #820415;}
+.timeline-desc a:visited {color: #820415;}
 
 .timeline-desc {
    border-radius: 0px !important;
